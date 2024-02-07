@@ -65,7 +65,7 @@ Para abordar esto deberíamos implementar estos pasos:
     
     method Boolean CheckWin(row, column: Integer)
     {
-     Call to CheckHorizontal, CheckVertical, and CheckDiagonal
+     Call to CheckHorizontal or CheckVertical or CheckDiagonal
     }
     
     method Boolean checkHorizontal(int row, int column)
